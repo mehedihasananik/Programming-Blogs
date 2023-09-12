@@ -7,7 +7,7 @@ const Blog = ({ cardData }) => {
     <div>
       {cardData.map((item) => {
         const { id } = item;
-        console.log(item);
+
         return <Item key={id} {...item} />;
       })}
     </div>

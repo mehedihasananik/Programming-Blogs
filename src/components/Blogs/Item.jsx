@@ -1,6 +1,16 @@
 /* eslint-disable react/prop-types */
+import { BsBookmark } from "react-icons/bs";
+import { addToCart } from "../../app/features/cartSlice";
+import { useDispatch } from "react-redux";
 
 const Item = ({ name, date, delimg, id, imgdata, tags, time, title }) => {
+  const dispatch = useDispatch();
+
+  const handleAddCart = () => {
+    let items = { name, date, delimg, id, imgdata, tags, time, title };
+    dispatch(addToCart(items));
+  };
+
   return (
     <div>
       {/* main div */}
@@ -22,8 +32,11 @@ const Item = ({ name, date, delimg, id, imgdata, tags, time, title }) => {
             </div>
           </div>
           {/* right */}
-          <div>
+          <div className="flex items-center space-x-2">
             <p>{time}</p>
+            <button onClick={() => handleAddCart()}>
+              <BsBookmark />
+            </button>
           </div>
         </div>
         {/* title  */}
