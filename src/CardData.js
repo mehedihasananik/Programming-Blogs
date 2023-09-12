@@ -1,4 +1,6 @@
 import image from "../src/images/1.png"
+import image1 from "../src/images/Rectangle 2.png"
+import image3 from "../src/images/Rectangle 3.png"
 import elipse from "../src/images/Ellipse 1.png"
 
 const CardData = [
@@ -16,7 +18,7 @@ const CardData = [
   {
     id: 2,
     name: "Mr. Raju",
-    imgdata: image,
+    imgdata: image1,
     address: "North Indian, Biryani, Mughlai",
     delimg: elipse,
     title: "How to get your first job as a self-taught programmer",
@@ -27,7 +29,7 @@ const CardData = [
   {
     id: 3,
     name: "Mr. Raju",
-    imgdata: image,
+    imgdata: image3,
     address: "North Indian, Biryani, Mughlai",
     delimg: elipse,
     title: "How to get your first job as a self-taught programmer",
