@@ -4,7 +4,7 @@ import elipse from "../src/images/Ellipse 1.png"
 const CardData = [
   {
     id: 1,
-    name: "punjabi",
+    name: "Mr. Raju",
     imgdata: image,
     address: "North Indian, Biryani, Mughlai",
     delimg: elipse,
@@ -15,7 +15,7 @@ const CardData = [
   },
   {
     id: 2,
-    name: "punjabi",
+    name: "Mr. Raju",
     imgdata: image,
     address: "North Indian, Biryani, Mughlai",
     delimg: elipse,
@@ -26,7 +26,7 @@ const CardData = [
   },
   {
     id: 3,
-    name: "punjabi",
+    name: "Mr. Raju",
     imgdata: image,
     address: "North Indian, Biryani, Mughlai",
     delimg: elipse,
